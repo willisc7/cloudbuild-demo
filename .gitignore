@@ -15,3 +15,14 @@ dist
 # Keys 
 cosign.*
 *.pem
+
+# Terraform
+*.tfstate
+*.tfvars
+*.hcl
+.terraform
+*.backup
+
+# Templates files 
+app/clouddeploy.yaml
+policy/attestor-policy.yaml

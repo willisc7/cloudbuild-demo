@@ -15,7 +15,11 @@ metadata:
   name: demo-test
 description: test cluster
 gke:
+<<<<<<< HEAD
   cluster: projects/cicd-demo-375021/locations/us-west1-c/clusters/demo-test
+=======
+  cluster: projects/cloudy-test/locations/us-west1-c/clusters/demo-test
+>>>>>>> 5c38ceee1279791dd86d686de5f42328526e374d
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -25,4 +29,8 @@ metadata:
 description: prod cluster
 requireApproval: true
 gke:
+<<<<<<< HEAD
   cluster: projects/cicd-demo-375021/locations/us-west1-c/clusters/demo-prod
+=======
+  cluster: projects/cloudy-prod/locations/us-west1-c/clusters/demo-prod
+>>>>>>> 5c38ceee1279791dd86d686de5f42328526e374d
